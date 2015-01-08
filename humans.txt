@@ -12,6 +12,6 @@ Name: Everyone!
                             
 /* SITE */
 
-Last update: 2014/08/27          
+Last update: 2015/01/08          
 Standards: HTML5, CSS3,      
 Components: Modernizr, jQuery, Grunt.js, Sass + Compass

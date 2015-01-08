@@ -36,6 +36,9 @@ p {
 strong {
   font-weight: 700;
   font-style: normal;
+  &.callout {
+    color: $brand-main;
+  }
 }
 
 a {
@@ -73,6 +76,14 @@ img {
   display: none;
 }
 
+.center {
+  text-align: center;
+}
+
+.huge {
+  font-size: 5em;
+}
+
 .wrap {
   width: 100%;
   margin: 0 auto;
@@ -95,4 +106,10 @@ h2 {
 
 section {
   padding: 3em 0;
+}
+
+.examples {
+  p {
+    text-align: center;
+  }
 }
