@@ -1,0 +1,20 @@
+// Typography
+
+// Fonts
+$killer: "shlop", "Helvetica", sans-serif;
+$sans: "brandon-grotesque", "Helvetica", sans-serif;
+$serif: Georgia, serif;
+$amp: Georgia, serif;
+
+// Font Classes
+.killer {
+  color: $red;
+  font-size: 1.1em;
+  font-family: $killer;
+  font-weight: 400;
+}
+
+//sizes
+$small: 0.5em;
+$med: 1em;
+$big: 3em;

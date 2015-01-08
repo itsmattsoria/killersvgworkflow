@@ -1,0 +1,80 @@
+//base styles
+*, *::before, *::after {
+ box-sizing: border-box;
+}
+
+html {
+}
+
+body {
+  color: $white;
+	font-size: 16px; //Em base unit
+	font-size: 100%;
+  text-align: center;
+  font-family: $sans;
+  background: $brand-secondary;
+	-webkit-font-smoothing: antialiased;
+}
+
+p {
+  font-size: 2em;
+  margin-top: 1em;
+  text-align: left;
+  margin-bottom: 0;
+  line-height: 1.25em;
+  &:first-of-type {
+    margin-top: 0;
+  }
+}
+
+strong {
+  font-weight: 700;
+  font-style: normal;
+}
+
+a {
+	color: inherit;
+}
+
+h1, h2, h3, h4 {
+  margin-top: 0;
+  line-height: 1em;
+  color: $brand-main;
+}
+
+img {
+  height: auto;
+	max-width: 100%;
+}
+
+ pre[class*="language-"] {
+  margin: 2em 0;
+}
+
+.hide {
+  display: none;
+}
+
+.wrap {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+  max-width: 1200px; // change to whatever 
+  position: relative;
+  @include clearfix();
+  @include min-screen($bpMd) {
+    // set breakpoints on a per-module basis when possible
+  }
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+section {
+  padding: 3em 0;
+}

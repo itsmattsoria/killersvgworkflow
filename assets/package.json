@@ -1,0 +1,21 @@
+{
+  "name": "starthere",
+  "version": "0.1.0",
+  "description": "The standards",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/poopsplat/starthere.git"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-imagemin": "~0.1.3",
+    "grunt-contrib-sass": "~0.8.1",
+    "grunt-contrib-uglify": "~0.5.1",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-autoprefixer": "~1.0.1",
+    "grunt-svgmin": "~1.0.0",
+    "grunt-svgstore": "~0.3.6",
+    "grunt-svg2png": "~0.2.5",
+    "load-grunt-tasks": "~0.2.0"
+  }
+}

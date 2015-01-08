@@ -1,0 +1,17 @@
+                            
+/* TEAM */
+                            
+Your title: Matt Soria            
+Site: mattsoria.com, contact@mattsoria.com           
+Twitter: @poopsplat                   
+Location: Chicago, USA.
+       
+/* THANKS */
+   
+Name: Everyone!
+                            
+/* SITE */
+
+Last update: 2014/08/27          
+Standards: HTML5, CSS3,      
+Components: Modernizr, jQuery, Grunt.js, Sass + Compass

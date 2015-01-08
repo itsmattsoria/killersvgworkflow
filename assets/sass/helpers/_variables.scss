@@ -1,0 +1,20 @@
+// Variables
+
+// Colors
+$black: #1d2120;
+$white: #fff;
+$gold: #ebc000;
+$red: #D92640;
+
+// Brand Swatches
+$brand-main: $gold;
+$brand-secondary: $black;
+
+// Color Classes
+.gold {color:$gold}
+
+// Breakpoints
+$bpSm: 30em; // 480px
+$bpMd: 43.75em; // 700px
+$bpLrg: 62.5em; // 1000px
+$bpHuge: 187.5em; // 3000px
