@@ -25,6 +25,12 @@ p {
   &:first-of-type {
     margin-top: 0;
   }
+  a {
+    color: $brand-main;
+  }
+  code {
+    font-size: 0.75em;
+  }
 }
 
 strong {
@@ -34,6 +40,18 @@ strong {
 
 a {
 	color: inherit;
+}
+
+ul {
+  margin: 2em 0;
+  padding: 0;
+  li {
+    font-size: 2em;
+    text-align: left;
+    a {
+      color: $brand-main;
+    }
+  }
 }
 
 h1, h2, h3, h4 {

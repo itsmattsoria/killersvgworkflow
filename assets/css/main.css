@@ -702,6 +702,12 @@ p {
 p:first-of-type {
   margin-top: 0;
 }
+p a {
+  color: #ebc000;
+}
+p code {
+  font-size: 0.75em;
+}
 
 strong {
   font-weight: 700;
@@ -710,6 +716,18 @@ strong {
 
 a {
   color: inherit;
+}
+
+ul {
+  margin: 2em 0;
+  padding: 0;
+}
+ul li {
+  font-size: 2em;
+  text-align: left;
+}
+ul li a {
+  color: #ebc000;
 }
 
 h1, h2, h3, h4 {
