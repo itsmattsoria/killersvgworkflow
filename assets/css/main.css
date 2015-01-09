@@ -823,6 +823,20 @@ section {
   fill: #ebc000;
 }
 
+.icon-gruntjs {
+  height: 200px;
+}
+
+.icon-twitter {
+  fill: #d92640;
+  width: 200px;
+}
+
+.icon-bars {
+  width: 150px;
+  fill: #ebc000;
+}
+
 .site-footer {
   padding: 3em 0 6em;
 }

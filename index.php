@@ -186,12 +186,13 @@ grunt.registerTask('default', ['watch']);
           <h2 class="huge"><span class="killer">Killer!</span></h2>
         </section>
         <div class="section">
-          <p>Now we can go crazy and use SVGs all over the place, <a href="http://css-tricks.com/using-svg/">style them</a> uniquely with CSS, <a href="http://codyhouse.co/gem/animate-svg-icons-with-css-and-snap/">animate them</a>, and we don't have to worry a bunch of extra HTTP requests are a bloated icon font file! Plus, with our automatically generated PNG fallbacks for IE8, we can use them pretty confidently and we don't have to even think about it that much!</p>
+          <p>Now we can go crazy and use SVGs all over the place, <a href="http://css-tricks.com/using-svg/">style them</a> uniquely with CSS (In the example project you can mess around with the styles in <strong>asstes/sass/components/_svg-icons.scss</strong>), <a href="http://codyhouse.co/gem/animate-svg-icons-with-css-and-snap/">animate them</a>, and we don't have to worry a bunch of extra HTTP requests are a bloated icon font file! Plus, with our automatically generated PNG fallbacks for IE8, we can use them pretty confidently and we don't have to even think about it that much!</p>
         </div>
         <section class="examples">
           <h2>Examples</h2>
-<!--           <p><svg class="icon icon-gruntjs" role="img" aria-labelledby="title"><use xlink:href="#icon-gruntjs"></use></svg></p>
-          <p><svg class="icon icon-twitter" role="img" aria-labelledby="title"><use xlink:href="#icon-twitter"></use></svg></p> -->
+          <p><svg class="icon icon-gruntjs" role="img" aria-labelledby="title"><use xlink:href="#icon-gruntjs"></use></svg></p>
+          <p><svg class="icon icon-twitter" role="img" aria-labelledby="title"><use xlink:href="#icon-twitter"></use></svg></p>
+          <p><svg class="icon icon-bars" role="img" aria-labelledby="title"><use xlink:href="#icon-bars"></use></svg></p>
         </section>
         <section>
           <h2>The IE8 Fallback</h2>
