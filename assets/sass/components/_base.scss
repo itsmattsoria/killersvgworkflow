@@ -14,6 +14,9 @@ body {
   font-family: $sans;
   background: $brand-secondary;
 	-webkit-font-smoothing: antialiased;
+  @include max-screen($bpMd) {
+    font-size: 75%;
+  }
 }
 
 p {
@@ -102,6 +105,16 @@ h1 {
 
 h2 {
   font-size: 3em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+.update {
+  color: $black;
+  padding: 0.5em 0;
+  background: $brand-main;
 }
 
 section {

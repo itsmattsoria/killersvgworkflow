@@ -51,6 +51,8 @@
               <li>Provide PNG fallbacks for browser that don't support SVG (<span class="gold">*</span>without loading extra images for browsers that do)</li>
               <li>Don't waste time with tedious repetitive tasks</li>
             </ul>
+            <h3 class="update">*Update (01.26.15)</h3>
+            <p><a href="http://filamentgroup.com">Filament Group</a> created a Grunt task called <a href="https://github.com/filamentgroup/grunticon">Grunticon</a> that does pretty much all of this and a bit more, but I wasn't using it because it didn't allow you to embed the SVG icons right into the page in order to be able to style them with CSS, <em>but</em>, Version 2.0 was just released and now includes the option to do just that! I haven't tested it out just yet but <a href="http://filamentgroup.github.io/grunticon/example/output/preview.html#embedded-svg-option">the demonstration</a> looks great!</p>
         </section>
         <section>
           <h2>How?</h2>

@@ -707,6 +707,11 @@ body {
   background: #1d2120;
   -webkit-font-smoothing: antialiased;
 }
+@media screen and (max-width: 43.75em) {
+  body {
+    font-size: 75%;
+  }
+}
 
 p {
   font-size: 2em;
@@ -800,6 +805,16 @@ h1 {
 
 h2 {
   font-size: 3em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+.update {
+  color: #1d2120;
+  padding: 0.5em 0;
+  background: #ebc000;
 }
 
 section {
