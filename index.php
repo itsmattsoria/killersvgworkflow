@@ -235,7 +235,7 @@ grunt.registerTask('default', ['watch']);
       <div class="wrap">
         <h2>Get In Touch</h2>
         <p>As I said earlier — this isn't perfect, so I'd love to hear some tips on how to make it better, or other ways you've optimized your SVG workflow.</p>
-        <p>Send me an email at <a href="mailto:matt.m.soria@gmail.com">matt.m.soria@gmail.com</a>, tweet me at <a href="twitter.com/poopsplat">@poopsplat</a>, or fork this example project on <a href="https://github.com/poopsplat/killersvgworkflow">Github</a> to improve upon it.</p>
+        <p>Send me an email at <a href="mailto:matt.m.soria@gmail.com">matt.m.soria@gmail.com</a>, tweet me at <a href="http://twitter.com/poopsplat">@poopsplat</a>, or fork this example project on <a href="https://github.com/poopsplat/killersvgworkflow">Github</a> to improve upon it.</p>
         <p class="huge center"><span class="killer">Thanks!</span></p>
       </div>
     </footer>
